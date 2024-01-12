@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#root{
+    width: 70%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button, input{
+    box-sizing: border-box;
+}
